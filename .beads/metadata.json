@@ -2,6 +2,6 @@
   "database": "dolt",
   "backend": "dolt",
   "dolt_mode": "embedded",
-  "dolt_database": "adjust_numbers",
-  "project_id": "cbd275bf-2e3d-41c3-b478-efecf46b1b59"
+  "dolt_database": "AN",
+  "project_id": "c101f5c2-990b-4dff-8595-2835e734f6c7"
 }
