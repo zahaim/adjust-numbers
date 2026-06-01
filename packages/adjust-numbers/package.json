@@ -17,6 +17,9 @@
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "<rootDir>/dist/"
+    ],
     "transformIgnorePatterns": [
       "node_modules/(?!(react-native|expo-haptics)/)"
     ],
