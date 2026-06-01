@@ -1,0 +1,46 @@
+{
+  "name": "react-native-adjust-numbers",
+  "version": "0.1.0",
+  "description": "Touch-first odometer-style number adjuster for React Native / Expo",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "typecheck": "tsc --noEmit",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(react-native|expo-haptics)/)"
+    ],
+    "moduleNameMapper": {
+      "^react-native$": "<rootDir>/node_modules/react-native"
+    }
+  },
+  "peerDependencies": {
+    "expo": ">=54",
+    "expo-haptics": ">=14",
+    "react": ">=18",
+    "react-native": ">=0.76",
+    "react-native-gesture-handler": ">=2",
+    "react-native-reanimated": ">=3"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-native": "^0.73.0",
+    "expo-haptics": "^14.0.0",
+    "jest": "^29.0.0",
+    "react": "18.3.1",
+    "react-native": "0.76.5",
+    "ts-jest": "^29.0.0",
+    "typescript": "^5.0.0"
+  }
+}
